@@ -47,3 +47,7 @@ a {
 .primary-navigation a.active {
   background-color: white;
 }
+
+.center {
+  text-align: center
+}
