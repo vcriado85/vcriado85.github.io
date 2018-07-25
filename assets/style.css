@@ -51,3 +51,15 @@ a {
 .center {
   text-align: center
 }
+
+.cards {
+  display: flex
+
+}
+
+.card {
+  background: . rgba(255, 0, 0, 0.5);
+  padding: 1em;
+  margin: 1em;
+  flex-basis: 50%;
+}
