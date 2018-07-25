@@ -1,5 +1,7 @@
 body {
-  background: tomato;
+  background: #0033CC;
+  color:white;
+  font-family: system-ui, sans-sans-serif;
 }
 p.example {
   color: blue
@@ -23,6 +25,7 @@ a {
 .primary-navigation a {
   color: black;
   padding: 20px;
+  text-decoration: none;
 }
 
 .primary-navigation a.active {
