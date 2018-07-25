@@ -20,6 +20,7 @@ nav a {
   padding: 20px;
   text-decoration: none;
   transition: background-color 0.4s ease-in-out;
+  justify-content: center;
 }
 
 nav a:hover {
@@ -53,13 +54,14 @@ a {
 }
 
 .cards {
-  display: flex
+  overflow: auto;
 
 }
 
 .card {
   background: . rgba(255, 0, 0, 0.5);
-  padding: 1em;
-  margin: 1em;
-  flex-basis: 50%;
+  padding: 1%;
+  margin: 1%;
+  float: left;
+  width: 46%;
 }
