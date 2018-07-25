@@ -6,6 +6,7 @@ body {
 
 nav {
   background: rgba(255,255,255,0.75);
+  background: #FFFFFF80;
   display: flex;
   direction: row-reverse;
 }
