@@ -15,7 +15,14 @@ nav a.active {
   background: white;
 }
 
-nav.a.hover {
+nav a {
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+  transition: background-color 0.4s ease-in-out;
+}
+
+nav a:hover {
   background: rgba(255,255,255,0.75);
 }
 
