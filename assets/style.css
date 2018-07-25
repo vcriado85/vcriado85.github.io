@@ -9,7 +9,7 @@ img {
 }
 nav {
   background: rgba(255,255,255,0.75);
-  background: #FFFFFF80;
+  background-color: #FFFFFF80;
   display: flex;
   direction: row-reverse;
 }
@@ -58,7 +58,13 @@ a {
 
 .cards {
   overflow: auto;
+}
 
+.card {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border: solid 10px white;
+  margin: 20px;
 }
 
 .cardgroup {
