@@ -5,8 +5,13 @@ body {
 }
 
 nav {
+  background: rgba(255,255,255,0.5);
   display: flex;
   direction: row-reverse;
+}
+
+nav a.active {
+  background: white:
 }
 
 a {
