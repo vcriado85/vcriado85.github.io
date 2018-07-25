@@ -4,3 +4,12 @@ body {
 p.example {
   color: blue
 }
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
+.primary-navigation {
+  background-color: pink;
+}
