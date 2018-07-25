@@ -64,4 +64,6 @@ a {
   margin: 1%;
   float: left;
   width: 46%;
+  max-width: 100%
+  display: flex;
 }
