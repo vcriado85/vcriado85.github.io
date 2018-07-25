@@ -4,6 +4,9 @@ body {
   font-family: sfpro, roboto, system-ui, sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
 nav {
   background: rgba(255,255,255,0.75);
   background: #FFFFFF80;
@@ -64,6 +67,5 @@ a {
   margin: 1%;
   float: left;
   width: 46%;
-  max-width: 100%
   display: flex;
 }
