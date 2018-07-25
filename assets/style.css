@@ -14,3 +14,7 @@ a {
   background-color: pink;
   color: black;
 }
+
+.primary-navigation a {
+  color: black;
+}
