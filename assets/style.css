@@ -4,9 +4,13 @@ body {
   font-family: system-ui, sans-serif;
 }
 
+nav {
+  display: flex;
+  direction: row-reverse;
+}
 
 a {
-  color: white;
+  color: navy;
   font-weight: bold;
 }
 
