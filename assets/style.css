@@ -1,3 +1,6 @@
 body {
   background: tomato;
 }
+p.example {
+  class=white
+}
