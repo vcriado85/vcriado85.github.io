@@ -15,6 +15,12 @@ a {
   color: black;
 }
 
+.primary-navigation {
+  color: black;
+  padding: 20px;
+}
+
 .primary-navigation a {
   color: black;
+  padding: 20px;
 }
