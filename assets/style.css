@@ -2,6 +2,7 @@ body {
   background: #40e0d0;
   color:navy;
   font-family: sfpro, roboto, system-ui, sans-serif;
+  margin: 2em;
 }
 
 img {
@@ -39,6 +40,7 @@ a {
   background-color: navy;
   color: black;
   padding: 20px;
+  border-radius: 20px 20px 20px 20px;
 }
 
 .primary-navigation a {
@@ -62,10 +64,12 @@ a {
 
 .card {
   background: rgba(255, 255, 255, 0.5);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 0 1px rgba(0, 0, 0, 1),
+              inset 4px -4px 1px rgba(0, 0, 0, 0.5);
   padding: 20px;
   border: solid 10px white;
   margin: 10px;
+  transition: box-shadow 0.5s, transform 0.5s;
   border-radius: 20px 20px 20px 20px;
   flex-basis: 1;
 }
@@ -75,5 +79,9 @@ a {
   margin-left: -10px;
   margin-right: -10px;
   display: flex;
+}
 
+.card:hover {
+  box-shadow: 0 3px 0 6px rgba(0, 0, 0, 1);
+  transform: scale(1.05);
 }
